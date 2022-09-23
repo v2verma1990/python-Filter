@@ -1,8 +1,8 @@
 import unittest
 from filter import slash_access
 
-class TestFactorial(unittest.TestCase):
-    def test_fact(self):
+class TestFilter(unittest.TestCase):
+    def test_filter(self):
         
         my_object = {"a":{"b":{"c":"d"}}}
         res =  slash_access(my_object,"a/b")
