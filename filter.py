@@ -11,6 +11,6 @@ my_object = {"a":{"b":{"c":"d"}}}
 
 try:
     result =slash_access(my_object, "a/b")
-    print(result)
+    print(result) 
 except BaseException:
     logging.exception("Incorrect key")
